@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Test work</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="bootstrap-grid.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script type="text/javascript" src="jquery-3.3.1.js"></script>
+</head>
+<body>
+  <main class="container">
+    <div class="row justify-content-center">
+      <div class="col">
+        <h1 class="title">Система бронирования</h1>
+        <ul class="row justify-content-center description">
+          <li class="col description__item">
+            <div class="description--closed color-block"></div> - забронирован</li>
+
+          <li class="col description__item">
+            <div class="description--selected color-block"></div> - выбран</li>
+        </ul>
+        <!-- /.description -->
+      </div>
+      <!-- /.col -->
+    </div>
+    <!-- /.row -->
+
+    <section class="month">
+      <h2 class="month__title">Февраль 2019</h2>
+      <div class="month-wrapper">
+        <div class="calendar">
+          <table class="table">
+            <tbody class="table__body">
+            <tr>
+              <th class="th">Пн</th>
+              <th class="th">Вт</th>
+              <th class="th">Ср</th>
+              <th class="th">Чт</th>
+              <th class="th">Пт</th>
+              <th class="th">Сб</th>
+              <th class="th">Вс</th>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- /.calendar -->
+
+        <div class="save">
+          <button class="save__button hidden">Забронировать</button>
+          <p class="save__text hidden">Бронирование успешно завершено</p>
+        </div>
+        <!-- /.save -->
+      </div>
+      <!-- /.month-wrapper -->
+    </section>
+    <!-- /.month -->
+
+  </main>
+  <!-- /main.container -->
+
+  <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

@@ -1,3 +1,3 @@
 # Test tasks
 
-* [Calendar]("/calendar")
+* [Calendar]("calendar/")

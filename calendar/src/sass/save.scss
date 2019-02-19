@@ -1,0 +1,27 @@
+.save {
+  min-width: 266px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.save__button {
+  width: 180px;
+  height: 40px;
+  font-size: 16px;
+  font-family: inherit;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(#40C781, #399f5f);
+  border: none;
+  border-radius: 3px;
+  box-shadow: 2px 2px 5px #c7c7c7;
+
+  &:hover {
+    background: linear-gradient(#3db36f, #40C781);
+  }
+}
+
+.save__text {
+  color: #3db36f;
+}

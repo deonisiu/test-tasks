@@ -1,0 +1,134 @@
+.description {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.description--closed {
+  background-color: #f77;
+}
+
+.description--selected {
+  background-color: #3db36f;
+}
+
+.description__item {
+  display: inline-block;
+  min-width: 200px;
+  position: relative;
+  flex-grow: 0;
+}
+
+.table {
+  border-spacing: 5px;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+.table .td, .table .th {
+  border: 1px solid grey;
+  padding: 10px;
+}
+
+.table .td {
+  color: darkgray;
+}
+
+.table .td--current {
+  color: black;
+  cursor: pointer;
+}
+
+.table .td--current:hover {
+  background-color: #ccc;
+}
+
+.table .td--closed {
+  color: #fff;
+  background-color: #f77;
+  cursor: auto;
+}
+
+.table .td--closed:hover {
+  background-color: #ff504a;
+}
+
+.table .td--selected {
+  color: #fff;
+  background-color: #3db36f;
+}
+
+.table .td--selected:hover {
+  background-color: #6c6;
+}
+
+.month-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.month-wrapper .calendar {
+  margin-right: 30px;
+}
+
+@media screen and (max-width: 640px) {
+  .month-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .month-wrapper .calendar {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .month-wrapper .save {
+    min-width: 0;
+  }
+}
+
+.save {
+  min-width: 266px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.save__button {
+  width: 180px;
+  height: 40px;
+  font-size: 16px;
+  font-family: inherit;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(#40C781, #399f5f);
+  border: none;
+  border-radius: 3px;
+  box-shadow: 2px 2px 5px #c7c7c7;
+}
+
+.save__button:hover {
+  background: linear-gradient(#3db36f, #40C781);
+}
+
+.save__text {
+  color: #3db36f;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+.color-block {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+}
+
+.hidden {
+  display: none;
+}

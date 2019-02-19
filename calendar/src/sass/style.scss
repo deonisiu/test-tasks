@@ -1,0 +1,25 @@
+$small: 640px;
+
+@import "description";
+@import "table";
+@import "month";
+@import "save";
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+.color-block {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+}
+
+.hidden {
+  display: none;
+}

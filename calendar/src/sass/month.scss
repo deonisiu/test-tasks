@@ -1,0 +1,24 @@
+.month-wrapper {
+  display: flex;
+  justify-content: center;
+
+  .calendar {
+    margin-right: 30px;
+  }
+}
+
+@media screen and (max-width: $small){
+  .month-wrapper {
+    flex-direction: column;
+    align-items: center;
+
+    .calendar {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+
+    .save {
+      min-width: 0;
+    }
+  }
+}

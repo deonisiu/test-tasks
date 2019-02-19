@@ -1,0 +1,42 @@
+.table {
+  border-spacing: 5px;
+  border-collapse: collapse;
+  border: 1px solid black;
+
+  .td, .th {
+    border: 1px solid grey;
+    padding: 10px;
+  }
+
+  .td {
+    color: darkgray;
+
+    &--current {
+      color: black;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #ccc;
+      }
+    }
+
+    &--closed {
+      color: #fff;
+      background-color: #f77;
+      cursor: auto;
+
+      &:hover {
+        background-color: #ff504a;
+      }
+    }
+
+    &--selected {
+      color: #fff;
+      background-color: #3db36f;
+
+      &:hover {
+        background-color: #6c6;
+      }
+    }
+  }
+}
